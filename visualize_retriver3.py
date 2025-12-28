@@ -48,10 +48,10 @@ def inspect_retrieval(question_text, answer_text, n_results=3):
                 # Make reading easier
                 preview_text = doc.replace('\n', ' ')[:250]  # First 250 characters
 
-                print(f"      [Rank {i + 1} | Score: {dist:.4f}]")
-                print(f"         Source: {os.path.basename(meta.get('source', 'Unknown'))}")
-                print(f"         Content: \"{preview_text}...\"")
-                print("      " + "." * 40)
+                print(f"[Rank {i + 1} | Score: {dist:.4f}]")
+                print(f"Source: {os.path.basename(meta.get('source', 'Unknown'))}")
+                print(f"Content: \"{preview_text}...\"")
+                print("     " + "." * 40)
 
         except Exception as e:
             print(f"      Error: {e}")

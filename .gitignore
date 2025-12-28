@@ -1,0 +1,15 @@
+# --- IDE and System Files ---
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# --- Project important datas (not gonna upload) ---
+vector_dbs/
+baeldung_articles_markdown/
+*.csv
